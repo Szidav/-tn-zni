@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Wpf_Vizsga_f4/1.0.0": {
+        "dependencies": {
+          "Console_feladat": "1.0.0"
+        },
+        "runtime": {
+          "Wpf_Vizsga_f4.dll": {}
+        }
+      },
+      "Console_feladat/1.0.0": {
+        "runtime": {
+          "Console_feladat.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wpf_Vizsga_f4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Console_feladat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

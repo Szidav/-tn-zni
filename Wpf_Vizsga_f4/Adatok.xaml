@@ -1,0 +1,19 @@
+﻿<Window x:Class="Wpf_Vizsga_f4.Adatok"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Vizsga_f4"
+        mc:Ignorable="d"
+        Title="Adatok" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="datagridDolgozok" AutoGenerateColumns="False" ColumnWidth="*">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}"/>
+                <DataGridTextColumn Header="Foglalkozás" Binding="{Binding Foglalkozas}"/>
+                <DataGridTextColumn Header="Nyelv" Binding="{Binding Nyelv}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
